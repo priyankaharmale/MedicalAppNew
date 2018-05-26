@@ -1,0 +1,102 @@
+<resources>
+
+
+    <string name="app_name">MedicalApp</string>
+    <string name="str_fullname">Full Name</string>
+    <string name="str_email">Email ID</string>
+    <string name="str_recovery">Recovery Email ID</string>
+    <string name="str_dob">Date of Birth</string>
+    <string name="str_emergency1">Emergency Contact no. 1</string>
+    <string name="str_emergency2">Emergency Contact no. 2</string>
+    <string name="str_password">Password</string>
+    <string name="str_confimpwd">Confirm Password</string>
+    <string name="str_pin">PIN</string>
+    <string name="str_smartcard">Smart Card</string>
+    <string name="btn_register">Register</string>
+    <string name="str_alredyaccount">Already Have an Account?</string>
+    <string name="str_login">Login</string>
+    <string name="str_forgotpwd">Forgot Password?</string>
+    <string name="str_or">OR</string>
+    <string name="str_qrcode">QR Code Scan</string>
+    <string name="str_donthvaccount">Dont have an account?</string>
+    <string name="time_our_error">Time out.</string>
+    <string name="can_not_connect">No Internet Connection Available.</string>
+    <string name="auth_fail">Authentication Failed.</string>
+    <string name="server_error">Server error.</string>
+    <string name="netwotk_error">Unable to connect with network.</string>
+    <string name="parser_error">Parse error.</string>
+    <string name="unknow_error_txt">Unknown Error.</string>
+
+
+
+    <string name="mis_folder_all">All Images</string>
+    <string name="mis_preview">Preview</string>
+    <string name="mis_msg_no_camera">No system camera found</string>
+    <string name="mis_msg_amount_limit">Select images amount is limit</string>
+    <string name="mis_action_done">Done</string>
+    <string name="mis_action_button_string">%1$s(%2$d/%3$d)</string>
+    <string name="mis_photo_unit">Shot</string>
+    <string name="mis_tip_take_photo">Take photo</string>
+    <string name="mis_error_image_not_exist">Image error</string>
+    <string name="mis_error_no_permission">Has no permission</string>
+    <string name="mis_permission_dialog_title">Permission Deny</string>
+    <string name="mis_permission_dialog_ok">OK</string>
+    <string name="mis_permission_dialog_cancel">CANCEL</string>
+    <string name="mis_permission_rationale">Storage read permission is needed to pick files.</string>
+    <string name="mis_permission_rationale_write_storage">Storage write permission is needed to save the image.</string>
+
+    <string name="str_forgotPwd">Forgot Your Password ?</string>
+    <string name="btn_submit">Submit</string>
+    <string name="str_forgotPasswordtxt">In order to receive your access code by email, please enter the email address you provided during the registration process.</string>
+
+    <!--DashBoard-->
+    <string name="str_hello">HELLO,</string>
+    <string name="str_dash">DASHBOARD</string>
+    <string name="str_deis">Disease title/Year</string>
+    
+    
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Setting</item>
+
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+
+    <!--Diesease Details-->
+    <string name="str_diessenam">Disease Name:</string>
+    <string name="str_doctorsName">Doctor Name:</string>
+    <string name="str_duration">Duration:</string>
+    <string name="str_durationfrom">From:</string>
+    <string name="str_durationto">To:</string>
+    <string name="str_medicalpresc">Medical Prescriptions</string>
+    <string name="str_bills">Bills</string>
+
+
+    <string name="str_addnewinfo">ADD NEW INFO</string>
+    <string name="str_save">Save</string>
+
+    <!--Profile-->
+    <string name="str_blood">Blood Group</string>
+
+
+
+</resources>

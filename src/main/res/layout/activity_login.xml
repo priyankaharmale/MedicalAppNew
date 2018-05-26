@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/background"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ic_logo" />
+
+            <EditText
+                android:id="@+id/et_emailId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/roundback"
+                android:gravity="center"
+                android:inputType="textEmailAddress"
+                android:hint="@string/str_email"
+                android:layout_marginLeft="20dp"
+
+                android:textCursorDrawable="@drawable/cursor_editext"
+                android:layout_marginRight="20dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/edittextcolor"
+                android:layout_below="@+id/iv_logo" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/et_emailId"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textPassword"
+                android:textCursorDrawable="@drawable/cursor_editext"
+                android:background="@drawable/roundback"
+                android:gravity="center"
+                android:hint="@string/str_password"
+                android:textColorHint="@color/edittextcolor" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                android:text="@string/str_login"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tv_forgotpwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/str_forgotpwd"
+                android:textColor="@color/edittextcolor"
+                android:textSize="16sp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv_forgotpwd"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/ll_code"
+                android:gravity="center"
+
+                android:orientation="horizontal"
+                android:layout_marginRight="30dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView_qrr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/qr" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/str_qrcode"
+
+                        android:textColor="@color/edittextcolor"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tv_or"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/str_or"
+                        android:textColor="@color/edittextcolor"
+                        android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+
+                        android:layout_centerHorizontal="true" />
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_marginTop="10dp"
+
+                        android:background="@android:color/white"
+                        android:layout_height="120dp"></View></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/smart"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/edittextcolor"
+                        android:text="@string/str_smartcard" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_code"
+
+                android:layout_margin="20dp"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/edittextcolor"
+                    android:text="@string/str_donthvaccount"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/tv_register"
+                    android:text="@string/btn_register"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
